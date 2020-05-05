@@ -11,7 +11,7 @@ class TestBasicMath(unittest.TestCase):
         result = plus(1, 5)
         self.assertEqual(result, 6)
 
-    def sum(self):
+    def test_sum(self):
         sample_data = [1,2,3,4]
         result = sum(sample_data)
         self.assertEqual(result, 10)
